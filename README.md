@@ -132,13 +132,13 @@ team project, we will require you to use the following workflow.
 
 1. Create a GitHub Organization for your repos, and add collaborators as members of the organization. Their role must be set to **Owner**. To confirm that they have joined as owners, go to the "People" tab on your organization. If you need to change someone's role, you can do so by clicking the gear icon. Any repos that you create as part of the project will go inside this organization. Make sure you create the organization on GitHub and not GitHub Enterprise.
 
-1. Create two empty starting repos within the new GitHub organization (one for your Client and one for your API). One team member should download the .zip of [`browser-template`](https://git.generalassemb.ly/ga-wdi-boston/browser-template) and [`express-api-template`](https://git.generalassemb.ly/ga-wdi-boston/express-api-template) as separate local repos. Follow the set up instructions for each template.
+1. Create an empty starting repo within the new GitHub organization. One team member should set up the initial application and connect it with remote repo.
 
-1. Using `git remote add origin <your-ssh-git-url>` attach your two empty GitHub repos to the corresponding ones on your local computer (`browser-template` for your client repo, `express-api-template` for your API).
+1. Using `git remote add origin <your-ssh-git-url>` attach your empty GitHub repo to the one on your local computer.
 
 1. Create a `development` branch in each repo and push them up to the remotes on GitHub.
 
-1. Have each member of the team clone, **NOT FORK**, both repos, so that they have their own copies of each.
+1. Have each member of the team clone, **NOT FORK**, the  so that they have their own copy.
 
 #### Regular Workflow
 
@@ -201,14 +201,6 @@ Work through the following steps as a team.
 
 1. Push the finished version of your code up to GitHub
      (`git push origin master`).
-
-1. Deploy!
-
-    _If this is your back-end repo,_
-    _run `heroku create` to set up a new repo on Heroku,_
-    _and push to it by running `git push heroku master`._
-    _If this is your front-end repo, test your build with `grunt build`,_
-    _then run `grunt deploy`_
 
 ##### GENERAL GUIDELINES
 
