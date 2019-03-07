@@ -26,6 +26,15 @@ already seen. Today, we'll introduce a third: _rebasing_.
 - Basic Git workflow
 - Git Branching and Merging
 
+Set some git configs from your terminal
+
+```
+git config --global pull.rebase true
+git config --global branch.autosetuprebase always
+git config --global push.default simple
+git config --global branch.autosetupmerge true
+```
+
 If you're feeling fuzzy on these topics, here's some reading to brush up.
 
 1. [Atlassian Tutorials: Using Branches](https://www.atlassian.com/git/tutorials/using-branches)
